@@ -11,12 +11,6 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-
-            /*
-            Console.WriteLine("** CALCULO DE FACTORIAL **");
-            Console.WriteLine($"el factorial para el numero ingresado es: {CalculoDeFactoria(1)}.");
-            Console.ReadLine();
-            */
             Evaluador.Instancia.Evaluar(CalculoDeFactoria);
         }
 
