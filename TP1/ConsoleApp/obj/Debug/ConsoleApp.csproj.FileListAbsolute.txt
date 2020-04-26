@@ -1,0 +1,9 @@
+C:\Users\Juan PC\source\repos\TP1\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\Juan PC\source\repos\TP1\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\Juan PC\source\repos\TP1\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\Juan PC\source\repos\TP1\ConsoleApp\bin\Debug\Pav.Tp1.Evaluacion.dll
+C:\Users\Juan PC\source\repos\TP1\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\Juan PC\source\repos\TP1\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Juan PC\source\repos\TP1\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+C:\Users\Juan PC\source\repos\TP1\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\Juan PC\source\repos\TP1\ConsoleApp\obj\Debug\ConsoleApp.pdb
