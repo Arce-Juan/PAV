@@ -1,0 +1,9 @@
+C:\Users\Juancho\Source\Repos\PAV-TP2\ConsoleAppTP2\bin\Debug\ConsoleAppTP2.exe.config
+C:\Users\Juancho\Source\Repos\PAV-TP2\ConsoleAppTP2\bin\Debug\ConsoleAppTP2.exe
+C:\Users\Juancho\Source\Repos\PAV-TP2\ConsoleAppTP2\bin\Debug\ConsoleAppTP2.pdb
+C:\Users\Juancho\Source\Repos\PAV-TP2\ConsoleAppTP2\bin\Debug\Pav.Tp.Evaluacion.dll
+C:\Users\Juancho\Source\Repos\PAV-TP2\ConsoleAppTP2\obj\Debug\ConsoleAppTP2.csprojAssemblyReference.cache
+C:\Users\Juancho\Source\Repos\PAV-TP2\ConsoleAppTP2\obj\Debug\ConsoleAppTP2.csproj.CoreCompileInputs.cache
+C:\Users\Juancho\Source\Repos\PAV-TP2\ConsoleAppTP2\obj\Debug\ConsoleAppTP2.csproj.CopyComplete
+C:\Users\Juancho\Source\Repos\PAV-TP2\ConsoleAppTP2\obj\Debug\ConsoleAppTP2.exe
+C:\Users\Juancho\Source\Repos\PAV-TP2\ConsoleAppTP2\obj\Debug\ConsoleAppTP2.pdb
