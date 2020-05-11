@@ -8,18 +8,13 @@ namespace ConsoleApp
 {
     public class Triangulo : Figura
     {
-        private decimal Base { get; set; }
-        private decimal Altura { get; set; }
+        private double _base;
+        private double altura;
 
-        public Triangulo(decimal _base, decimal _altura)
-        {
-            IdTipo = 2;
-            Nombre = "Triangulo";
-            Base = _base;
-            Altura = _altura;
-        }
-        
-        public override decimal CalcularArea()
+        public double Base { get => _base; set => _base = value; }
+        public double Altura { get => altura; set => altura = value; }
+
+        public override double CalcularArea()
         {
             return Math.Round(((Base * Altura) / 2), 2);
         }

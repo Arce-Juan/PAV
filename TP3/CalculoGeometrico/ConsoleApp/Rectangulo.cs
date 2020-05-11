@@ -8,19 +8,15 @@ namespace ConsoleApp
 {
     public class Rectangulo : Figura
     {
-        private decimal ladoBase;
-        private decimal ladoAltura;
+        private double _base;
+        private double altura;
 
-        public Rectangulo(decimal _ladoBase, decimal _ladoAltura)
+        public double Base { get => _base; set => _base = value; }
+        public double Altura { get => altura; set => altura = value; }
+
+        public override double CalcularArea()
         {
-            this.IdTipo = 5;
-            this.Nombre = "Rectangulo";
-            this.ladoBase = _ladoBase;
-            this.ladoAltura = _ladoAltura;
-        }
-        public override decimal CalcularArea()
-        {
-            return this.ladoBase * this.ladoAltura;
+            return Math.Round((Base * Altura), 2);
         }
 
     }

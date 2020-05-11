@@ -4,16 +4,13 @@ namespace ConsoleApp
 {
     public class Circulo: Figura
     {
-        private decimal ladoRadio;
-        public Circulo(decimal _ladoRadio)
+        private double radio;
+
+        public double Radio { get => radio; set => radio = value; }
+
+        public override double CalcularArea()
         {
-            this.IdTipo = 3;
-            this.Nombre = "Circulo";
-            ladoRadio = _ladoRadio;
-        }
-        public override decimal CalcularArea()
-        {
-            return (decimal)Math.PI * (this.ladoRadio / 2) * (this.ladoRadio / 2);
+            return Math.Round((Math.PI * Radio * Radio), 2);
         }
 
     }
