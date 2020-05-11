@@ -4,9 +4,7 @@ namespace ConsoleApp
 {
     public class Circulo: Figura
     {
-        private double radio;
-
-        public double Radio { get => radio; set => radio = value; }
+        public double Radio { get; set; }
 
         public override double CalcularArea()
         {

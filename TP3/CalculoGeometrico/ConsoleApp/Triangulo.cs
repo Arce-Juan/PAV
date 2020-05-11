@@ -8,11 +8,8 @@ namespace ConsoleApp
 {
     public class Triangulo : Figura
     {
-        private double _base;
-        private double altura;
-
-        public double Base { get => _base; set => _base = value; }
-        public double Altura { get => altura; set => altura = value; }
+        public double Base { get; set; }
+        public double Altura { get; set; }
 
         public override double CalcularArea()
         {
