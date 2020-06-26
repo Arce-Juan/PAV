@@ -33,6 +33,41 @@ namespace Delegados
                 Console.WriteLine("salto excepcion. Mensaje: " + ex.Message);
             }
 
+
+            Console.WriteLine("*************************");
+            Console.WriteLine(" DELEGADOS CON PARAMETROS");
+            Console.WriteLine("*************************");
+
+            Action<string> DelegadoConParametro = MostrarMensaje;
+            DelegadoConParametro += (mensaje) =>
+            {
+                Console.WriteLine($"El mensaje con un delegado con exprecion lambda es: {mensaje}");
+            };
+            //DelegadoConParametro("Estamos accediendo desde un delegado con parametros");
+            DelegadoConParametro("nuevo mensaje");
+
+            Console.WriteLine("*************************");
+            Console.WriteLine(" algunas expresiones lambda");
+            Console.WriteLine("*************************");
+
+            Func<int, int, int> DelegadoConRetorno;
+            DelegadoConRetorno = (a, b) =>
+            {
+                Console.WriteLine($"La suma con funcion abtracta es: {a + b}");
+                return a + b;
+            };
+            DelegadoConRetorno += SumaDeNumerosMultiplicadosPor10;
+            int resultado = DelegadoConRetorno(5, 5);
+            Console.WriteLine($"la suma con delegados es: {resultado}");
+
+            Func<string, int, int, decimal> DelegadoMultiplesTipos;
+            DelegadoMultiplesTipos = MensajeConDivisionDeNumeros;
+            DelegadoMultiplesTipos += (string mensaje, int a, int b) =>
+            {
+                Console.WriteLine($"Desde expresion lambda: El mensaje es: {mensaje} y la division es: {a / b}");
+                return (a / b);
+            };
+            DelegadoMultiplesTipos("mensaje desde controller", 400, 5);
             Console.WriteLine("Presione <enter> para salir..");
             Console.Read();
 
@@ -63,13 +98,13 @@ namespace Delegados
 
         static void MostrarMensaje(string mensaje)
         {
-            Console.WriteLine($"El mensaje es: {mensaje}");
+            Console.WriteLine($"El mensaje de Metodo (MostrarMensaje) es: {mensaje}");
         }
 
         static void Metodo_2()
         {
             Console.WriteLine("Ejecutamos el metodo 2 - Con retardo");
-            Thread.Sleep(3000);
+            Thread.Sleep(1500);
         }
         
         /*
@@ -91,6 +126,17 @@ namespace Delegados
             throw (new Exception("Mi excepcion en metodo 4 - Stop!!.."));
         }
 
+        static int SumaDeNumerosMultiplicadosPor10(int a, int b)
+        {
+            Console.WriteLine($"El resultado de la suma en una fucnio es: {(a + b) * 10}");
+            return (a + b) * 10;
+        }
 
+        static decimal MensajeConDivisionDeNumeros(string mensaje, int a, int b)
+        {
+            Console.WriteLine($"Desde el Metodo: El mensaje es: {mensaje} y la division es: {a / b}");
+            return (a / b);
+        }
+        
     }
 }

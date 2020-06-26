@@ -16,3 +16,9 @@ D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\Delegado
 D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\Delegados\obj\Debug\Delegados.pdb
 D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\Delegados\bin\Debug\Delegados.exe
 D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\Delegados\bin\Debug\Delegados.pdb
+D:\GIT\PAV\Practica Parcial 1\DelegadosFabrica\Delegados\bin\Debug\Delegados.exe
+D:\GIT\PAV\Practica Parcial 1\DelegadosFabrica\Delegados\bin\Debug\Delegados.pdb
+D:\GIT\PAV\Practica Parcial 1\DelegadosFabrica\Delegados\obj\Debug\Delegados.csprojAssemblyReference.cache
+D:\GIT\PAV\Practica Parcial 1\DelegadosFabrica\Delegados\obj\Debug\Delegados.csproj.CoreCompileInputs.cache
+D:\GIT\PAV\Practica Parcial 1\DelegadosFabrica\Delegados\obj\Debug\Delegados.exe
+D:\GIT\PAV\Practica Parcial 1\DelegadosFabrica\Delegados\obj\Debug\Delegados.pdb
