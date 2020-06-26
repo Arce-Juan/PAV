@@ -1,0 +1,7 @@
+D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\ExpresionesLambda\bin\Debug\ExpresionesLambda.exe.config
+D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\ExpresionesLambda\bin\Debug\ExpresionesLambda.exe
+D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\ExpresionesLambda\bin\Debug\ExpresionesLambda.pdb
+D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\ExpresionesLambda\obj\Debug\ExpresionesLambda.csprojAssemblyReference.cache
+D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\ExpresionesLambda\obj\Debug\ExpresionesLambda.csproj.CoreCompileInputs.cache
+D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\ExpresionesLambda\obj\Debug\ExpresionesLambda.exe
+D:\Juan\2020\PAV\OneDrive_1_25-6-2020\DelegadosFabrica\DelegadosFabrica\ExpresionesLambda\obj\Debug\ExpresionesLambda.pdb
